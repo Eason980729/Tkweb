@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>TK乄集團 - CODM戰隊官網</title>
+  <link rel="icon" type="image/jpeg" href="photo/photo_1.jpeg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
   <style>
@@ -43,8 +44,8 @@ html {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-.navbar .navbar-brand {
-  display: none;
+.navbar .navbar-brand img {
+  border-radius: 8px;
 }
 .navbar-nav {
   margin-left: 0 !important;
@@ -199,6 +200,9 @@ body::-webkit-scrollbar-thumb {
   <div class="overlay"></div>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top justify-content-center">
     <div class="container justify-content-center">
+      <a class="navbar-brand me-auto" href="#home">
+        <img src="photo/photo_1.jpeg" alt="TK乄集團" height="40" class="d-inline-block align-text-top">
+      </a>
       <button
         class="navbar-toggler ms-auto"
         type="button"
@@ -224,6 +228,7 @@ body::-webkit-scrollbar-thumb {
   </nav>
   <header id="home" class="hero">
     <div>
+      <img src="photo/photo_2.jpeg" alt="TK乄集團" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; box-shadow: 0 0 20px rgba(240, 165, 0, 0.5);">
       <h1>TK乄集團</h1>
       <p class="lead">一個優質、友善的CODM戰隊</p>
     </div>
@@ -231,13 +236,15 @@ body::-webkit-scrollbar-thumb {
   <section class="intro" id="intro">
     <h2 class="section-title">戰隊介紹</h2>
     <p>
-        你有找不到人一起上分，又或者是想單挑卻找不到適合的對手，那你真是來對地方了!<br>TK乄集團是由我們的帥氣隊長：<strong>TK乄峰樂迴</strong>所創建，這裡聚集了許多喜愛這遊戲的人，像是爬分的好隊友、抑或是強勁的單挑好手、喜愛研究配件的玩家，甚至是其他遊戲的玩家，這裡通通都有！<br>本戰隊分成一館和二館，會依照你的考試狀況分配！
+        <strong>相信你經常會遇到以下困擾：</strong><br>1.想上分時找不到一起爬分的隊友 <br>2.想單挑卻不知道該找誰 <br>3.想要找背包配置、槍械配件卻找不到<br><br><span style="font-size: 1.2em; font-weight: bold;">那你來對地方了！</span><br><br>加入我們「TK乄集團」，在這裡有許多一起爬分的好隊友、厲害的單挑好手、以及專業的背包配置和槍械配件推薦<br>每個隊員都很友善，我們經常一起閒聊、討論各種事情，讓你不會感到孤單<br>偷偷告訴你，戰隊經常會發放許多<strong>福利</strong>喔！
     </p>
   </section>
   <section id="announcement">
     <h2 class="section-title">戰隊重要公告</h2>
     <ul>
       <li>戰隊一二館招生中！</li>
+      <li>戰隊不定期會舉辦活動</li>
+      <li>一館名額即將到上限，屆時新進成員將暫時轉移至館！</li>
     </ul>
   </section>
   <section id="exam">
@@ -247,6 +254,8 @@ body::-webkit-scrollbar-thumb {
       <div>請先加入MSG群組，與考官約定槍種和考試時間</div>
       <div>本戰隊強制改名，改名格式：TK乄XXX </div>
       <div>經常脾氣爆躁、愛噴人、嘴砲、騷擾、鞭屍等行為後果自負</div>
+      <div>通過考試後考官會依照強弱分配一二館</div>
+      <div>一館滿人時新進成員會暫時分配至二館等待空缺</div>
       <div class="exam-subtitle" style="margin-top:1.5rem;">考試規則</div>
       <div style="border-left-color: #28a745;">地圖可以選擇殺戮禁區或是奪命貨櫃</div>
       <div style="border-left-color: #28a745;">10分獲得8分就算通過，沒有考過的還可以補考</div>
@@ -269,7 +278,18 @@ body::-webkit-scrollbar-thumb {
           <i class="fab fa-facebook me-2"></i> 隊長大大
         </a>
         <a href="https://www.facebook.com/share/194RDRFTBs/?mibextid=wwXIfr" target="_blank" class="btn btn-link d-flex align-items-center">
-          <i class="fab fa-facebook me-2"></i> 副隊
+          <i class="fab fa-facebook me-2"></i> 一館副隊
+        </a>
+        <a href="https://www.facebook.com/share/1BfHZCnj5m/?mibextid=wwXIfr" target="_blank" class="btn btn-link d-flex align-items-center">
+          <i class="fab fa-facebook me-2"></i> 秘書
+        </a>
+      </div>
+      <div class="social-links justify-content-center mb-4" style="max-width: 600px;">
+        <a href="https://www.facebook.com/share/18yE8XP8UT/?mibextid=wwXIfr" target="_blank" class="btn btn-link d-flex align-items-center">
+          <i class="fab fa-facebook me-2"></i> 二館隊長
+        </a>
+        <a href="https://www.facebook.com/share/15qnKtRa6C/?mibextid=wwXIfr" target="_blank" class="btn btn-link d-flex align-items-center">
+          <i class="fab fa-facebook me-2"></i> 二館副隊
         </a>
         <a href="https://www.facebook.com/share/16KpG917FZ/?mibextid=wwXIfr" target="_blank" class="btn btn-link d-flex align-items-center">
           <i class="fab fa-facebook me-2"></i> Eason
@@ -342,7 +362,6 @@ document.querySelectorAll('a.nav-link').forEach(link => {
       });
     }
     
-    // 自動收起漢堡選單
     const navbarCollapse = document.getElementById('navbarNav');
     const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
       toggle: false
